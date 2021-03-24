@@ -172,7 +172,7 @@ class CustomCube(Cube):
             Face.Yellow: [[Piece[input()] for _ in range(3)] for _ in range(3)],
             Face.White: [[Piece[input()] for _ in range(3)] for _ in range(3)],
         }
-        super().__init__()
+        super().__init__(faces)
 
 
 if __name__ == '__main__':
