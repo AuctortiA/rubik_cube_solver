@@ -113,7 +113,7 @@ class Cube:
         """
         This move method effectively only makes a U move. Other moves can be produced later by performing cube
         rotations that will change which faces this move method will affect.
-        :return: None.
+        :return: None
         """
 
         buffer = self.faces[self.sides[Side.Front]][0].copy()  # Save the front in a buffer as it will be lost otherwise
